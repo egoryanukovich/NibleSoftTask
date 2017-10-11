@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42392CF35CA33E123DAFA19B /* Pods_NibleSoftTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5794EEF57D4019C21594961F /* Pods_NibleSoftTask.framework */; };
 		7FA4A34F1F8E365B003EC668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4A34E1F8E365B003EC668 /* AppDelegate.swift */; };
 		7FA4A3511F8E365B003EC668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4A3501F8E365B003EC668 /* ViewController.swift */; };
 		7FA4A3541F8E365B003EC668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA4A3521F8E365B003EC668 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13D9242499647DBBBB758026 /* Pods-NibleSoftTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibleSoftTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-NibleSoftTask/Pods-NibleSoftTask.release.xcconfig"; sourceTree = "<group>"; };
+		5794EEF57D4019C21594961F /* Pods_NibleSoftTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NibleSoftTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7686BA1E3789C9A64181B12C /* Pods-NibleSoftTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibleSoftTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NibleSoftTask/Pods-NibleSoftTask.debug.xcconfig"; sourceTree = "<group>"; };
 		7FA4A34B1F8E365B003EC668 /* NibleSoftTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibleSoftTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA4A34E1F8E365B003EC668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FA4A3501F8E365B003EC668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42392CF35CA33E123DAFA19B /* Pods_NibleSoftTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16A53069FC055BDFCA9FB189 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5794EEF57D4019C21594961F /* Pods_NibleSoftTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		773F7F8CA97E646D170A134C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7686BA1E3789C9A64181B12C /* Pods-NibleSoftTask.debug.xcconfig */,
+				13D9242499647DBBBB758026 /* Pods-NibleSoftTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7FA4A3421F8E365B003EC668 = {
 			isa = PBXGroup;
 			children = (
 				7FA4A34D1F8E365B003EC668 /* NibleSoftTask */,
 				7FA4A34C1F8E365B003EC668 /* Products */,
+				773F7F8CA97E646D170A134C /* Pods */,
+				16A53069FC055BDFCA9FB189 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FA4A35D1F8E365B003EC668 /* Build configuration list for PBXNativeTarget "NibleSoftTask" */;
 			buildPhases = (
+				9BBFBAF97B893CA5B672170F /* [CP] Check Pods Manifest.lock */,
 				7FA4A3471F8E365B003EC668 /* Sources */,
 				7FA4A3481F8E365B003EC668 /* Frameworks */,
 				7FA4A3491F8E365B003EC668 /* Resources */,
+				FE434460990607D0245DAF8E /* [CP] Embed Pods Frameworks */,
+				44D2EE952DA681D8FC2C4A70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,64 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44D2EE952DA681D8FC2C4A70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NibleSoftTask/Pods-NibleSoftTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BBFBAF97B893CA5B672170F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NibleSoftTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE434460990607D0245DAF8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NibleSoftTask/Pods-NibleSoftTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NibleSoftTask/Pods-NibleSoftTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7FA4A3471F8E365B003EC668 /* Sources */ = {
@@ -272,6 +357,7 @@
 		};
 		7FA4A35E1F8E365B003EC668 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7686BA1E3789C9A64181B12C /* Pods-NibleSoftTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +373,7 @@
 		};
 		7FA4A35F1F8E365B003EC668 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D9242499647DBBBB758026 /* Pods-NibleSoftTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
