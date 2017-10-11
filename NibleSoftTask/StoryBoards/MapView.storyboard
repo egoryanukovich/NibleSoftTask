@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="HbM-7I-AKH">
+            <objects>
+                <viewController storyboardIdentifier="mapViewSB" id="jI8-Zh-zWN" customClass="MapViewController" customModule="NibleSoftTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jZO-Jw-xRO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="g3K-ve-MG5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="xcc-od-vUA">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" red="0.020192868020000001" green="0.77076062820000002" blue="0.55840625129999999" alpha="0.78636023119999998" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g3K-ve-MG5" firstAttribute="bottom" secondItem="WKi-Cc-yWz" secondAttribute="bottom" id="7BN-f7-0U9"/>
+                            <constraint firstItem="xcc-od-vUA" firstAttribute="centerX" secondItem="g3K-ve-MG5" secondAttribute="centerX" id="Bqm-Xz-cA7"/>
+                            <constraint firstItem="g3K-ve-MG5" firstAttribute="leading" secondItem="jZO-Jw-xRO" secondAttribute="leading" id="FKj-Ws-LVW"/>
+                            <constraint firstAttribute="trailing" secondItem="g3K-ve-MG5" secondAttribute="trailing" id="Kn3-Mg-KGG"/>
+                            <constraint firstItem="g3K-ve-MG5" firstAttribute="top" secondItem="jZO-Jw-xRO" secondAttribute="top" id="TEv-pS-q7t"/>
+                            <constraint firstItem="xcc-od-vUA" firstAttribute="centerY" secondItem="g3K-ve-MG5" secondAttribute="centerY" id="ugE-Zm-TOL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WKi-Cc-yWz"/>
+                    </view>
+                    <connections>
+                        <outlet property="myActivityIndicator" destination="xcc-od-vUA" id="0MW-Py-OJm"/>
+                        <outlet property="myMapView" destination="g3K-ve-MG5" id="dGb-qK-FS4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KaC-5w-ZoH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88.799999999999997" y="142.57871064467767"/>
+        </scene>
+    </scenes>
+</document>

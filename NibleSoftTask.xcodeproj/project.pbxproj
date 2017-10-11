@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		42392CF35CA33E123DAFA19B /* Pods_NibleSoftTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5794EEF57D4019C21594961F /* Pods_NibleSoftTask.framework */; };
 		7FA4A34F1F8E365B003EC668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4A34E1F8E365B003EC668 /* AppDelegate.swift */; };
-		7FA4A3511F8E365B003EC668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4A3501F8E365B003EC668 /* ViewController.swift */; };
 		7FA4A3541F8E365B003EC668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA4A3521F8E365B003EC668 /* Main.storyboard */; };
 		7FA4A3561F8E365B003EC668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA4A3551F8E365B003EC668 /* Assets.xcassets */; };
 		7FA4A3591F8E365B003EC668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA4A3571F8E365B003EC668 /* LaunchScreen.storyboard */; };
+		7FC63F6E1F8E43A700CD6722 /* ParentTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC63F6D1F8E43A700CD6722 /* ParentTabController.swift */; };
+		7FC63F701F8E441D00CD6722 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC63F6F1F8E441D00CD6722 /* MapViewController.swift */; };
+		7FC63F721F8E444100CD6722 /* SearchHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC63F711F8E444100CD6722 /* SearchHistoryController.swift */; };
+		7FC63F741F8E445700CD6722 /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC63F731F8E445600CD6722 /* MapView.storyboard */; };
+		7FC63F761F8E446100CD6722 /* SearchHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC63F751F8E446100CD6722 /* SearchHistory.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +25,15 @@
 		7686BA1E3789C9A64181B12C /* Pods-NibleSoftTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibleSoftTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NibleSoftTask/Pods-NibleSoftTask.debug.xcconfig"; sourceTree = "<group>"; };
 		7FA4A34B1F8E365B003EC668 /* NibleSoftTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibleSoftTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA4A34E1F8E365B003EC668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7FA4A3501F8E365B003EC668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7FA4A3531F8E365B003EC668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FA4A3551F8E365B003EC668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA4A3581F8E365B003EC668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FA4A35A1F8E365B003EC668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC63F6D1F8E43A700CD6722 /* ParentTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentTabController.swift; sourceTree = "<group>"; };
+		7FC63F6F1F8E441D00CD6722 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7FC63F711F8E444100CD6722 /* SearchHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHistoryController.swift; sourceTree = "<group>"; };
+		7FC63F731F8E445600CD6722 /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
+		7FC63F751F8E446100CD6722 /* SearchHistory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchHistory.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,14 +86,42 @@
 		7FA4A34D1F8E365B003EC668 /* NibleSoftTask */ = {
 			isa = PBXGroup;
 			children = (
-				7FA4A34E1F8E365B003EC668 /* AppDelegate.swift */,
-				7FA4A3501F8E365B003EC668 /* ViewController.swift */,
-				7FA4A3521F8E365B003EC668 /* Main.storyboard */,
-				7FA4A3551F8E365B003EC668 /* Assets.xcassets */,
-				7FA4A3571F8E365B003EC668 /* LaunchScreen.storyboard */,
+				7FC63F791F8E48A100CD6722 /* Controllers */,
+				7FC63F7A1F8E48AE00CD6722 /* StoryBoards */,
+				7FC63F7B1F8E48C000CD6722 /* Supporting files */,
 				7FA4A35A1F8E365B003EC668 /* Info.plist */,
 			);
 			path = NibleSoftTask;
+			sourceTree = "<group>";
+		};
+		7FC63F791F8E48A100CD6722 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FC63F6D1F8E43A700CD6722 /* ParentTabController.swift */,
+				7FC63F6F1F8E441D00CD6722 /* MapViewController.swift */,
+				7FC63F711F8E444100CD6722 /* SearchHistoryController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7FC63F7A1F8E48AE00CD6722 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				7FA4A3521F8E365B003EC668 /* Main.storyboard */,
+				7FC63F731F8E445600CD6722 /* MapView.storyboard */,
+				7FC63F751F8E446100CD6722 /* SearchHistory.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		7FC63F7B1F8E48C000CD6722 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				7FA4A34E1F8E365B003EC668 /* AppDelegate.swift */,
+				7FA4A3551F8E365B003EC668 /* Assets.xcassets */,
+				7FA4A3571F8E365B003EC668 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +188,9 @@
 			files = (
 				7FA4A3591F8E365B003EC668 /* LaunchScreen.storyboard in Resources */,
 				7FA4A3561F8E365B003EC668 /* Assets.xcassets in Resources */,
+				7FC63F741F8E445700CD6722 /* MapView.storyboard in Resources */,
 				7FA4A3541F8E365B003EC668 /* Main.storyboard in Resources */,
+				7FC63F761F8E446100CD6722 /* SearchHistory.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,8 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA4A3511F8E365B003EC668 /* ViewController.swift in Sources */,
+				7FC63F721F8E444100CD6722 /* SearchHistoryController.swift in Sources */,
 				7FA4A34F1F8E365B003EC668 /* AppDelegate.swift in Sources */,
+				7FC63F701F8E441D00CD6722 /* MapViewController.swift in Sources */,
+				7FC63F6E1F8E43A700CD6722 /* ParentTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
