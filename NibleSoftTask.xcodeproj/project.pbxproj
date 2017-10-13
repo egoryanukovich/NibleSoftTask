@@ -8,32 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		42392CF35CA33E123DAFA19B /* Pods_NibleSoftTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5794EEF57D4019C21594961F /* Pods_NibleSoftTask.framework */; };
+		7F0E50C51F8FC98F00272016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0E50C41F8FC98F00272016 /* Assets.xcassets */; };
+		7F0E50C71F8FD41100272016 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E50C61F8FD41100272016 /* HistoryCell.swift */; };
+		7F9693661F8E830800999220 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9693651F8E830800999220 /* WeatherView.swift */; };
+		7F9693681F8E831A00999220 /* WeatherView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F9693671F8E831A00999220 /* WeatherView.xib */; };
 		7FA4A34F1F8E365B003EC668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4A34E1F8E365B003EC668 /* AppDelegate.swift */; };
 		7FA4A3541F8E365B003EC668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA4A3521F8E365B003EC668 /* Main.storyboard */; };
-		7FA4A3561F8E365B003EC668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA4A3551F8E365B003EC668 /* Assets.xcassets */; };
 		7FA4A3591F8E365B003EC668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA4A3571F8E365B003EC668 /* LaunchScreen.storyboard */; };
+		7FBDA88E1F90EB83008ED154 /* HistoryInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBDA88D1F90EB83008ED154 /* HistoryInfoController.swift */; };
 		7FC63F6E1F8E43A700CD6722 /* ParentTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC63F6D1F8E43A700CD6722 /* ParentTabController.swift */; };
 		7FC63F701F8E441D00CD6722 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC63F6F1F8E441D00CD6722 /* MapViewController.swift */; };
 		7FC63F721F8E444100CD6722 /* SearchHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC63F711F8E444100CD6722 /* SearchHistoryController.swift */; };
 		7FC63F741F8E445700CD6722 /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC63F731F8E445600CD6722 /* MapView.storyboard */; };
 		7FC63F761F8E446100CD6722 /* SearchHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC63F751F8E446100CD6722 /* SearchHistory.storyboard */; };
+		7FF1C3A11F8F67FA00A549F9 /* WeatherDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1C3A01F8F67FA00A549F9 /* WeatherDataManager.swift */; };
+		7FF1C3A31F8F725400A549F9 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1C3A21F8F725400A549F9 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13D9242499647DBBBB758026 /* Pods-NibleSoftTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibleSoftTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-NibleSoftTask/Pods-NibleSoftTask.release.xcconfig"; sourceTree = "<group>"; };
 		5794EEF57D4019C21594961F /* Pods_NibleSoftTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NibleSoftTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7686BA1E3789C9A64181B12C /* Pods-NibleSoftTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibleSoftTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NibleSoftTask/Pods-NibleSoftTask.debug.xcconfig"; sourceTree = "<group>"; };
+		7F0E50C41F8FC98F00272016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F0E50C61F8FD41100272016 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		7F9693651F8E830800999220 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		7F9693671F8E831A00999220 /* WeatherView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherView.xib; sourceTree = "<group>"; };
 		7FA4A34B1F8E365B003EC668 /* NibleSoftTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibleSoftTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA4A34E1F8E365B003EC668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FA4A3531F8E365B003EC668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7FA4A3551F8E365B003EC668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA4A3581F8E365B003EC668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FA4A35A1F8E365B003EC668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FBDA88D1F90EB83008ED154 /* HistoryInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryInfoController.swift; sourceTree = "<group>"; };
 		7FC63F6D1F8E43A700CD6722 /* ParentTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentTabController.swift; sourceTree = "<group>"; };
 		7FC63F6F1F8E441D00CD6722 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7FC63F711F8E444100CD6722 /* SearchHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHistoryController.swift; sourceTree = "<group>"; };
 		7FC63F731F8E445600CD6722 /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
 		7FC63F751F8E446100CD6722 /* SearchHistory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchHistory.storyboard; sourceTree = "<group>"; };
+		7FF1C3A01F8F67FA00A549F9 /* WeatherDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataManager.swift; sourceTree = "<group>"; };
+		7FF1C3A21F8F725400A549F9 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7F9693691F8E8B5500999220 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FF1C3A21F8F725400A549F9 /* WeatherModel.swift */,
+				7FF1C3A01F8F67FA00A549F9 /* WeatherDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		7FA4A3421F8E365B003EC668 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +107,7 @@
 		7FA4A34D1F8E365B003EC668 /* NibleSoftTask */ = {
 			isa = PBXGroup;
 			children = (
+				7F9693691F8E8B5500999220 /* Model */,
 				7FC63F791F8E48A100CD6722 /* Controllers */,
 				7FC63F7A1F8E48AE00CD6722 /* StoryBoards */,
 				7FC63F7B1F8E48C000CD6722 /* Supporting files */,
@@ -100,6 +122,9 @@
 				7FC63F6D1F8E43A700CD6722 /* ParentTabController.swift */,
 				7FC63F6F1F8E441D00CD6722 /* MapViewController.swift */,
 				7FC63F711F8E444100CD6722 /* SearchHistoryController.swift */,
+				7F0E50C61F8FD41100272016 /* HistoryCell.swift */,
+				7F9693651F8E830800999220 /* WeatherView.swift */,
+				7FBDA88D1F90EB83008ED154 /* HistoryInfoController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -110,6 +135,7 @@
 				7FA4A3521F8E365B003EC668 /* Main.storyboard */,
 				7FC63F731F8E445600CD6722 /* MapView.storyboard */,
 				7FC63F751F8E446100CD6722 /* SearchHistory.storyboard */,
+				7F9693671F8E831A00999220 /* WeatherView.xib */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -118,8 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				7FA4A34E1F8E365B003EC668 /* AppDelegate.swift */,
-				7FA4A3551F8E365B003EC668 /* Assets.xcassets */,
 				7FA4A3571F8E365B003EC668 /* LaunchScreen.storyboard */,
+				7F0E50C41F8FC98F00272016 /* Assets.xcassets */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -187,9 +213,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FA4A3591F8E365B003EC668 /* LaunchScreen.storyboard in Resources */,
-				7FA4A3561F8E365B003EC668 /* Assets.xcassets in Resources */,
 				7FC63F741F8E445700CD6722 /* MapView.storyboard in Resources */,
+				7F9693681F8E831A00999220 /* WeatherView.xib in Resources */,
 				7FA4A3541F8E365B003EC668 /* Main.storyboard in Resources */,
+				7F0E50C51F8FC98F00272016 /* Assets.xcassets in Resources */,
 				7FC63F761F8E446100CD6722 /* SearchHistory.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F9693661F8E830800999220 /* WeatherView.swift in Sources */,
+				7FF1C3A11F8F67FA00A549F9 /* WeatherDataManager.swift in Sources */,
 				7FC63F721F8E444100CD6722 /* SearchHistoryController.swift in Sources */,
+				7FF1C3A31F8F725400A549F9 /* WeatherModel.swift in Sources */,
 				7FA4A34F1F8E365B003EC668 /* AppDelegate.swift in Sources */,
+				7FBDA88E1F90EB83008ED154 /* HistoryInfoController.swift in Sources */,
 				7FC63F701F8E441D00CD6722 /* MapViewController.swift in Sources */,
+				7F0E50C71F8FD41100272016 /* HistoryCell.swift in Sources */,
 				7FC63F6E1F8E43A700CD6722 /* ParentTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +432,7 @@
 			baseConfigurationReference = 7686BA1E3789C9A64181B12C /* Pods-NibleSoftTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GS2YW77K7;
 				INFOPLIST_FILE = NibleSoftTask/Info.plist;
@@ -416,6 +449,7 @@
 			baseConfigurationReference = 13D9242499647DBBBB758026 /* Pods-NibleSoftTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GS2YW77K7;
 				INFOPLIST_FILE = NibleSoftTask/Info.plist;
